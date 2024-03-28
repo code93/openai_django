@@ -8,8 +8,8 @@ Currently there are no models, just using the simplicity of Django as a webserve
 I've added Bootstrap to the frontend to make it look a bit nicer.
 
 ## Usage
-
-1. Install the requirements with `pip install -r requirements.txt` or alternatively create a virtual environment and install the requirements there. Make sure the environment variable is present in the virtual environment.
-2. Run the server with `python manage.py runserver`.
-3. Go to `http://localhost:8000/` to interact with the bot.
+1. set openai.api_key to your openapi key in chat/views.py
+2. Install the requirements with `pip install -r requirements.txt` or alternatively create a virtual environment and install the requirements there. Make sure the environment variable is present in the virtual environment.
+3. Run the server with `python manage.py runserver`.
+4. Go to `http://localhost:8000/` to interact with the bot.
 
