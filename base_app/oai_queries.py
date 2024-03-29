@@ -4,10 +4,10 @@ import os
 import openai
 from openai import OpenAI
 
-client = OpenAI(api_key = settings.OPENAI_API_KEY)
+
 # OpenAI API Key
 if settings.OPENAI_API_KEY:
-    openai.api_key = settings.OPENAI_API_KEY
+    client = OpenAI(api_key = settings.OPENAI_API_KEY)
 else:
     raise Exception('OpenAI API Key not found')
 
